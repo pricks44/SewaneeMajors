@@ -1,0 +1,39 @@
+         html{
+         background: url('SewaneePhoto.JPG') top 55px left 245px;
+}
+	    #topBox {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 55px;
+        width: 100%;
+        background-color: #3D007A;
+        padding: 5px;
+        border-bottom: 2px solid;
+}
+       #textIndexBox{
+	   position: absolute;
+	   top: 50%;
+	   left: 50px;
+	   background-color: #3D3D29;
+	   color: #ffffff;
+	   font-size: 40px;
+	   opacity: 0.80;
+}
+	  #topBox{
+	  font-size: 30px;
+	  color: #ffffff;
+}
+      #Text{
+	  font-size: 30px;
+	  color: #ffffff;
+}
+      #Majors{
+	  background-color: #008A2E;
+}
+      #Minors{
+	  background-color: #008A2E;
+}
+  	  #background {
+	  top: 55px;
+}
