@@ -13,8 +13,17 @@
 }
        #textIndexBox{
 	   position: absolute;
-	   top: 50%;
+	   top: 30%;
 	   left: 50px;
+	   background-color: #3D3D29;
+	   color: #ffffff;
+	   font-size: 40px;
+	   opacity: 0.80;
+}
+       #textIndexBox2{
+	   position: absolute;
+	   top: 50%;
+	   left: 400px;
 	   background-color: #3D3D29;
 	   color: #ffffff;
 	   font-size: 40px;
@@ -28,8 +37,8 @@
 	  font-size: 30px;
 	  color: #ffffff;
 }
-      #Majors{
-	  background-color: #008A2E;
+      #Majors, #Forum{
+	  color: #ffffff;
 }
       #Minors{
 	  background-color: #008A2E;
