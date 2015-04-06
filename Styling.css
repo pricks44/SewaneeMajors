@@ -49,3 +49,9 @@
        html, body{
           background-color: #663300
 }
+      #referenceBox{
+          margin-top:70%;
+          height: 100%;
+          margin-left:5%;
+          background-color: #BFFFFF;
+      }
