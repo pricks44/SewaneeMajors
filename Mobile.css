@@ -1,0 +1,49 @@
+
+	    #topBox {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 55px;
+        width: 100%;
+        background-color: #3D007A;
+        padding: 5px;
+        border-bottom: 2px solid;
+	font-size: 15px;
+	color: #ffffff;
+}
+       #textIndexBox{
+	   position: absolute;
+	   top: 60%;
+	   left: 0px;
+	   background-color: #343434;
+	   color: #ffffff;
+	   opacity: 0.90;
+}
+       #textIndexBox2{
+	   position: absolute;
+	   top: 65%;
+	   left: 0px;
+	   background-color: #343434;
+	   color: #ffffff;
+	   opacity: 0.90;
+}
+
+      #Text{
+	  font-size: 15px;
+	  color: #ffffff;
+}
+      #Majors, #Forum{
+	  color: black;
+}
+      Nav A:visited, 
+      A:link, 
+      A:hover{ display: block;
+               text-decoration: none;
+               margin-left: 20px;
+               margin-top: 30%;
+               background: #FFF;
+               font-size:15px;
+}
+       html, body{
+          background-color: #0000FF;
+}
