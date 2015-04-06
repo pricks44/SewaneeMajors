@@ -1,13 +1,4 @@
-         html{
-         background: url('SewaneePhoto.JPG') top 55px left 245px;
-}
-	    #topBox {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        height: 55px;         html{
-         background: url('SewaneePhoto.jpg') top 55px left 245px;
-}
+
 	    #topBox {
         position: absolute;
         top: 0px;
@@ -17,6 +8,8 @@
         background-color: #3D007A;
         padding: 5px;
         border-bottom: 2px solid;
+	font-size: 30px;
+	color: #ffffff;
 }
        #textIndexBox{
 	   position: absolute;
@@ -36,60 +29,23 @@
 	   font-size: 40px;
 	   opacity: 0.90;
 }
-	  #topBox{
-	  font-size: 30px;
-	  color: #ffffff;
-}
+
       #Text{
 	  font-size: 30px;
 	  color: #ffffff;
 }
       #Majors, #Forum{
-	  color: #ffffff;
+	  color: black;
 }
-      #Minors{
-	  background-color: #008A2E;
+      Nav A:visited, 
+      A:link, 
+      A:hover{ display: block;
+               text-decoration: none;
+               margin-left: 50%;
+               margin-top: 4px;
+               background: #FFF;
+               font-size:30px;
 }
-  	  #background {
-	  top: 55px;
-}
-        width: 100%;
-        background-color: #3D007A;
-        padding: 5px;
-        border-bottom: 2px solid;
-}
-       #textIndexBox{
-	   position: absolute;
-	   top: 30%;
-	   left: 50px;
-	   background-color: #3D3D29;
-	   color: #ffffff;
-	   font-size: 40px;
-	   opacity: 0.80;
-}
-       #textIndexBox2{
-	   position: absolute;
-	   top: 50%;
-	   left: 400px;
-	   background-color: #3D3D29;
-	   color: #ffffff;
-	   font-size: 40px;
-	   opacity: 0.80;
-}
-	  #topBox{
-	  font-size: 30px;
-	  color: #ffffff;
-}
-      #Text{
-	  font-size: 30px;
-	  color: #ffffff;
-}
-      #Majors, #Forum{
-	  color: #ffffff;
-}
-      #Minors{
-	  background-color: #008A2E;
-}
-  	  #background {
-	  top: 55px;
+       html, body{
+          background-color: #663300
 }
