@@ -55,3 +55,21 @@
           margin-left:5%;
           background-color: #BFFFFF;
       }
+      #signIn{
+          margin-top: 40px;
+          margin-left: 80%;
+      }
+      #signUp{
+          display: block;
+          text-decoration: none;
+          background: #FFF;
+          font-size:30px;
+          margin-top: 40px;
+          margin-left: 85%;
+      }
+      .signup{
+          border: 1px solid #999999;
+		  height: 100%;
+          font: normal 14px;
+          color: #444444;
+      }

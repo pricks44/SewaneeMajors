@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="Styling.css">
+<title>Sign Up Form</title>
+<script>
+function validate(form)
+{
+fail = validatefirstName(form.firstName.value)
+fail += validatelastName(form.lastName.value)
+fail += validateemail(form.email.value)
+fail += validatepassword(form.password.value)
+fail += validatedepartment(form.department.value)
+
+if(fail =="") return true
+else {alert(fail); return false}
+}
+
+function validatefirstName(field)
+{
+return (field == "") ? "No First Name was entered.\n" : ""
+}
+
+function validatelastName(field)
+{
+return (field == "") ? "No Last Name was entered.\n" : ""
+}
+
+function validateemail(field)
+{
+if (field == "") return "no Email was entered.\n"
+else if (!((field.indexOf(".") > 0) &&
+              (field.indexOf("@") > 0)) ||
+			  /[^a-zA-Z0-9.@_-]/.test(field))
+return "The Email adress is invalid.\n"
+return ""
+}
+function validatedepartment(field)
+{
+return (field == "") ? "No Department was entered.\n" : ""
+}
+</script>
+</head>
+<body>
+<table border="0" cellpadding="2" cellspacing="5" bgcolor="#eeeeee" align="center">
+<th colspan="2" align="center">Sign Up</th>
+<form method="Post" action="addUser.php" onsubmit="return validate(this)">
+<tr><td>First Name:</td>
+<td><input type="text" maxlength="32" name="firstName"></td></tr>
+<tr><td> Last Name:</td>
+<td><input type="text" maxlength="32" name="lastName"></td></tr>
+<tr><td>Email:</td>
+<td><input type="text" maxlength="35" name="email"></td></tr>
+<tr><td>Password:</td>
+<td><input type="text" maxlength="10" name="password"></td></tr>
+<tr><td>Department:</td>
+<td><input type="text" maxlength="15" name="department"></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="signUp"></td></tr>
+</form>
+</table>    
+</body>
+</html>
