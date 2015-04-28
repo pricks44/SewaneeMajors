@@ -47,7 +47,7 @@
                font-size:30px;
 }
        html, body{
-          background-color: #663300
+          background-color: #FFFF85
 }
       #referenceBox{
           margin-top:70%;
@@ -56,20 +56,24 @@
           background-color: #BFFFFF;
       }
       #signIn{
-          margin-top: 40px;
-          margin-left: 80%;
+          margin-top: 0px;
+          margin-left: 10%;
+          font-size: 25px;
       }
       #signUp{
           display: block;
           text-decoration: none;
           background: #FFF;
-          font-size:30px;
-          margin-top: 40px;
-          margin-left: 85%;
+          font-size:25px;
+          margin-top: 0px;
+          margin-left: 15%;
       }
       .signup{
           border: 1px solid #999999;
-		  height: 100%;
           font: normal 14px;
           color: #444444;
       }
+      #sendMiddle{
+          margin-top: 300px;
+          margin-left: 100px;
+}

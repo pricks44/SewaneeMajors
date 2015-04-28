@@ -46,15 +46,14 @@ return (field == "") ? "No Department was entered.\n" : ""
 <th colspan="2" align="center">Sign Up</th>
 <form method="Post" action="addUser.php" onsubmit="return validate(this)">
 <tr><td>First Name:</td>
-<td><input type="text" maxlength="32" name="firstName"></td></tr>
+<td><input type="text" maxlength="32" name="fname"></td></tr>
 <tr><td> Last Name:</td>
-<td><input type="text" maxlength="32" name="lastName"></td></tr>
+<td><input type="text" maxlength="32" name="lname"></td></tr>
 <tr><td>Email:</td>
 <td><input type="text" maxlength="35" name="email"></td></tr>
 <tr><td>Password:</td>
 <td><input type="text" maxlength="10" name="password"></td></tr>
-<tr><td>Department:</td>
-<td><input type="text" maxlength="15" name="department"></td></tr>
+
 <tr><td colspan="2" align="center"><input type="submit" value="signUp"></td></tr>
 </form>
 </table>    

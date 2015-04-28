@@ -1,5 +1,26 @@
 <html>
   <head>
+ <script type="text/javascript">
+function createPopup(){
+var popup = open("", "Popup", "width=300,height=200");
+<table border="0" cellpadding="2" cellspacing="5" bgcolor="#eeeeee" align="center">
+<th colspan="2" align="center">Sign Up</th>
+<form method="Post" action="addUser.php" onsubmit="return validate(this)">
+<tr><td>First Name:</td>
+<td><input type="text" maxlength="32" name="firstName"></td></tr>
+<tr><td> Last Name:</td>
+<td><input type="text" maxlength="32" name="lastName"></td></tr>
+<tr><td>Email:</td>
+<td><input type="text" maxlength="35" name="email"></td></tr>
+<tr><td>Password:</td>
+<td><input type="text" maxlength="10" name="password"></td></tr>
+<tr><td>Department:</td>
+<td><input type="text" maxlength="15" name="department"></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="signUp"></td></tr>
+</form>
+</table>    
+}
+</script>
 <meta name="viewport" content="user-scalable=no, width=device-width" />
 
 <link rel="stylesheet" href="Mobile.css"  
@@ -14,17 +35,14 @@
  
 <div id="topBox"><table cellpadding="20px"><tr><td id="Text">Sewanee Majors and Minors</td>
 <td> <a href="Majors.html" id="Majors">Majors</a></td>
-<td> <a href="Forum.php" id="Forum">Forum</a></td>
-<td>
-<a href="signUp.html" id="sign"></a>
-<input type="button" value="Sign Up" id="signUp"
-       onclick="window.open(sign,signUp.html,'width=400,height=300');return false;"></td>
-<td><a href="authenticate.php" id="signIn">Sign In</a></td>
-    </tr></table>
+<td> <a href="Forum.html" id="Forum">Forum</a></td>
+</tr></table>
+<div id="signUp" onclick="createPopup();">Create popup</div>
+
 </div>
 <div id="textIndexBox">Which Major are You Going to Choose?</div>
 <div id="textIndexBox2">Click On a Link Above for Advice</div>
-<!--<div id="referenceBox">First Reference: <a href="http://alistapart.com/article/creating-style-guides">Creating Style Guides</a><br>
+<div id="referenceBox">First Reference: <a href="http://alistapart.com/article/creating-style-guides">Creating Style Guides</a><br>
 This website goes over the basics of creating a style guide. The website begins by talking about how <br>
 the developer should use patterns in their website as well as making thier website interactive. <br>
 This refernece also advises us to keep the named of id's and classes simple in order to make maintenance easier to perform.<br>
@@ -40,6 +58,6 @@ as a guide to better the way we present our typing on the wbsite by making use o
 We plan to use this guide to make a uniform pattern for our website and all of its subpages so that there is continuity. <br>
 This website stresses the importance of continuity when making a website and claims that it increases the effectiveness of a website. <br>
 It also says that a website that lacks continuity can throw a reader off.
-      </div>-->
+      </div>
   </body>
   </html>

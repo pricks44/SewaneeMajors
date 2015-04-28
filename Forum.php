@@ -1,0 +1,5 @@
+<?php
+
+run 'authenticate.php';
+
+?>
