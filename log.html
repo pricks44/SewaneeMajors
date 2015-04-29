@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styling.css">
+            <title>Login Form</title>
+            <script>
+                function validate(form)
+                {
+                    fail = validateemail(form.email.value)
+                    fail += validatepassword(form.password.value)
+                    if(fail =="") return true
+                    else {alert(fail); return false}
+                }
+            function validateemail(field)
+            {
+                if (field == "") return "no Email was entered.\n"
+                else if (!((field.indexOf(".") > 0) &&
+                           (field.indexOf("@") > 0)) ||
+                         /[^a-zA-Z0-9.@_-]/.test(field))
+                         return "The Email adress is invalid.\n"
+                         return ""
+            }
+            function validatepassword(field)
+            {
+                return (field == "") ? "No password was entered.\n" : ""
+            }
+            </script>
+    </head>
+    <body>
+        <table border="0" cellpadding="2" cellspacing="5" bgcolor="#eeeeee" align="center">
+            <th colspan="2" align="center">Sign Up</th>
+            <form method="Post" action="log.php" onsubmit="return validate(this)">
+                <tr><td>Email:</td>
+                    <td><input type="text" maxlength="35" name="email"></td></tr>
+                <tr><td>Password:</td>
+                    <td><input type="text" maxlength="10" name="password"></td></tr>
+                
+                <tr><td colspan="2" align="center"><input type="submit" value="signUp"></td></tr>
+            </form>
+        </table>    
+    </body>
+</html>
