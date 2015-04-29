@@ -48,6 +48,7 @@
                     <option>Theatre</option>
                     <option>Women and Gender Studies</option>
                 </select>
+                <input type="submit">
         </form>
     </body>
 </html>
